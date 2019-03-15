@@ -25,6 +25,9 @@
     <Compile Include="miner_text_generator.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="slate_text_extraction.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PDF_1.py">
       <SubType>Code</SubType>
     </Compile>

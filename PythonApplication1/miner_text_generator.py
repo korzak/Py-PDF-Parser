@@ -30,4 +30,4 @@ def extract_text(pdf_path):
         print()
  
 if __name__ == '__main__':
-    print(extract_text('w9.pdf'))
+    print(extract_text('fw9.pdf'))
