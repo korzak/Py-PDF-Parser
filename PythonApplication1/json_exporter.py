@@ -13,7 +13,8 @@ def export_as_json(pdf_path, json_path):
  
     counter = 1
     for page in extract_text_by_page(pdf_path):
-        text = page[0:100]
+        #text = page[0:100]
+        text = page
         print text
         page = {'Page_{}'.format(counter): text}
         data['Pages'].append(page)
