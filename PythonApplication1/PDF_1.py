@@ -5,6 +5,7 @@ from pdfminer.converter import TextConverter
 from pdfminer.pdfinterp import PDFPageInterpreter
 from pdfminer.pdfinterp import PDFResourceManager
 from pdfminer.pdfpage import PDFPage
+
  
 def extract_text_from_pdf(pdf_path):
     resource_manager = PDFResourceManager()
