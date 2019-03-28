@@ -1,0 +1,2 @@
+pip install pdfminer
+pip install slate
